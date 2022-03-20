@@ -7,7 +7,6 @@ footer {
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
 }
 
 #logo {
@@ -76,7 +75,12 @@ label {
     box-shadow: 8px 8px 20px;
 }
 
-.img-galery {
+.img-gallery {
     width: 300px;
     height:auto;
+}
+
+h2 {
+    margin-top: 3rem;
+    margin-left: 3rem;
 }
