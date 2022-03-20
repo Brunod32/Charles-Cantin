@@ -64,8 +64,18 @@ label {
     padding-top: 1rem;
 }
 
+.card {
+    width: 400px;
+    margin-top:2rem;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px;
+}
 
-/* 
+.card:hover {
+    box-shadow: 4px 4px 15px;
+}
+
+
 @media screen and (max-width:992px) {
     .width-form {
         width: 100%;
@@ -73,4 +83,9 @@ label {
         padding: 1rem;
         justify-content: center;
     }
-} */
+
+    .card {
+        display: block;
+        flex-direction: column;
+    }
+}
