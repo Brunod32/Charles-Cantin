@@ -4,7 +4,6 @@ footer {
     left: 0;
     right: 0;
     height: 50px;
-    background-color: #C4C4C4;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -48,3 +47,30 @@ footer {
     text-align: center;
     margin-top: 2rem;
 }
+
+input,
+textarea {
+    border: 1px solid;
+    border-radius: 5px;
+}
+input:hover,
+textarea:hover {
+    border: 1px solid blue;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px;
+}
+
+label {
+    padding-top: 1rem;
+}
+
+
+/* 
+@media screen and (max-width:992px) {
+    .width-form {
+        width: 100%;
+        margin: auto;
+        padding: 1rem;
+        justify-content: center;
+    }
+} */

@@ -42,7 +42,27 @@
   </div>
 </nav>
         <h1 class="title-page">Me contacter</h1>
-
+<div class="width-form">
+    <div class="container-fluid">
+        <form method="get" name="contact" data-netlify="true">
+            <div class="row col-lg-6 col-md-10 m-auto">
+                <label for="email">Votre email</label>
+                <input type="email" name="email">
+            </div>
+            <div class="row col-lg-6 col-md-10 m-auto">
+                <label for="message-object">Objet du message</label>
+                <input type="text" name="message-object">
+            </div>
+            <div class="row col-lg-6 col-md-10 m-auto">
+                <label for="message-content">Message</label>
+                <textarea name="message-content" rows="10"></textarea>
+            </div>
+            <div class="d-flex">
+                <button type="submit" class="btn btn-primary mt-2 m-auto">Envoyer</button>
+            </div>
+        </form>
+    </div>
+</div>
     <footer class="footer-dark bg-primary">
     Copyright 2022 | Tous droits réservés</a>
 </footer>
