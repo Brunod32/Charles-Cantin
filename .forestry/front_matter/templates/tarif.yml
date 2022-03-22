@@ -22,5 +22,6 @@ fields:
       format: markdown
   label: description
 pages:
+- tarif/famille.md
 - tarif/juste-moi.md
 - tarif/pour-deux.md
