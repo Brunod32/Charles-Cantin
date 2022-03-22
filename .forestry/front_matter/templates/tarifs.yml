@@ -23,5 +23,6 @@ fields:
   label: description
 pages:
 - src/tarifs/famille.md
+- src/tarifs/il-etait-une-fois.md
 - src/tarifs/juste-moi.md
 - src/tarifs/pour-deux.md
