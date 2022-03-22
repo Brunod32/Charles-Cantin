@@ -5,8 +5,13 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: TarifPrestation
-  label: TarifPrestation
+  path: gallery
+  label: gallery
+  create: all
+  match: "**/*"
+- type: directory
+  path: tarif
+  label: tarif
   create: all
   match: "**/*"
 upload_dir: uploads
