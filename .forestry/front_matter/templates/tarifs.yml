@@ -22,5 +22,6 @@ fields:
       format: markdown
   label: description
 pages:
+- src/tarifs/famille.md
 - src/tarifs/juste-moi.md
 - src/tarifs/pour-deux.md
