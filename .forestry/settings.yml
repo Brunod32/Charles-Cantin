@@ -4,8 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: Contenu
 - type: directory
-  path: tarifs
+  path: src/tarifs
   label: tarifs
   create: all
   match: "**/*"
