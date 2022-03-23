@@ -6,20 +6,16 @@ layout: layout.njk
 <main class="container-fluid">
 
     {% for gallery in collections.galleries %}
-        <section>
-            <h2>{{gallery.data.title}}</h2>
-        </section>
+        <nav class="d-inline-flex flex-row">
+            <a class="d-flex justify-content-around" href="#">{{gallery.data.title}}</a>
+            {# Mettre dans href le lien vers les photos en fonction du filtre #}
+        </nav>
     {% endfor %}
-
+     
     <hr>
 
     <img class="img-gallery" src="{{'/uploads/mariage1.jpg'}}" alt="Photo">
 
-    {# {% for gallery in collections.galleries %}
-        <section class="d-inline-flex flex-row">
-            <h2 class="d-flex justify-content-evenly">{{gallery.data.title}}</h2>    
-        </section>
-    {% endfor %} #}
 
 </main>
 
