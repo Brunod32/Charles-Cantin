@@ -9,5 +9,6 @@ fields:
   label: title
 pages:
 - src/galleries/bebe.md
+- src/galleries/famille.md
 - src/galleries/grossesse.md
 - src/galleries/mariage.md
