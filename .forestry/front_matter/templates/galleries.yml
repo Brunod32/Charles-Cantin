@@ -8,4 +8,5 @@ fields:
     required: false
   label: title
 pages:
+- src/galleries/grossesse.md
 - src/galleries/mariage.md
