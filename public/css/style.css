@@ -39,9 +39,15 @@ footer {
     z-index:2;
     font-family: 'Sacramento', cursive;
     font-size: 60px;
-    top: 50%;
-    left: 30%;
 }
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .title-page {
     text-align: center;
