@@ -2,4 +2,4 @@
 title: Mariage
 
 ---
-![Photo de mariage](/uploads/mariage1.jpg "mariage")
+![](/uploads/mariage2.jpg)![Photo de mariage](/uploads/mariage1.jpg "mariage")
