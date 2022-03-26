@@ -7,14 +7,18 @@ layout: layout.njk
 
     {% for gallery in collections.galleries %}
         <nav class="d-inline-flex flex-row">
-            <a class="d-flex justify-content-around" href="#">{{gallery.data.title}}</a>
+            <a class="mx-3" href="#">{{gallery.data.title}}</a>
             {# Mettre dans href le lien vers les photos en fonction du filtre #}
         </nav>
     {% endfor %}
      
     <hr>
 
-    <img class="img-gallery" src="{{'/uploads/mariage1.jpg'}}" alt="Photo">
+    {% for upload in collections.uploads %}
+        <img class="img-gallery" src="{{'/uploads/mariage1.jpg'}}" alt="photo">
+    {% endfor %}
+
+    {# <img class="img-gallery" src="{{'/uploads/mariage1.jpg'}}" alt="Photo"> #}
 
 
 </main>
