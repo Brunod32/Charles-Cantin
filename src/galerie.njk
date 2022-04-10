@@ -14,12 +14,12 @@ layout: layout.njk
      
     <hr>
 
-    {% for upload in collections.uploads %}
-        <img class="img-gallery" src="{{'/uploads/mariage2.jpg'}}" alt="photo">
-    {% endfor %}
-
-    {# <img class="img-gallery" src="{{'/uploads/mariage1.jpg'}}" alt="Photo"> #}
-
+    {# Bouclez et créez un balisage pour toutes les images dans /uplaods #}
+    <section>
+        {% for image in collections.uploads %}
+            <img src="{{image}}" class="img-gallery" alt="">
+        {% endfor %}
+    </section>
 
 </main>
 
