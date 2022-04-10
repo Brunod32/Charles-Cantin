@@ -1,8 +1,8 @@
 // Import fast-glob package
-const fg = require('fast-glob')
+const fg = require('fast-glob');
 
 // Executer la recherche d'images dans /uplaods
-const galleryImages = fg.sync(['**/uploads/*.jpg', '**/_site']);
+const galleryImages = fg.sync(['src/uploads/*.jpg']);
 
 module.exports = function (eleventyConfig) {
 
@@ -12,7 +12,6 @@ module.exports = function (eleventyConfig) {
     });
     
     // Ce dossier est cloné lors du build
-    eleventyConfig.addPassthroughCopy("./src/img");
     eleventyConfig.addPassthroughCopy("./src/uploads");
     eleventyConfig.addPassthroughCopy("./src/css");
   
