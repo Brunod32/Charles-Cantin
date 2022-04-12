@@ -6,9 +6,9 @@ layout: layout.njk
 <main class="container-fluid">
 
     {% for gallerie in collections.galleries %}
-        <nav class="d-inline-flex flex-row">
-            <a class="mx-3" href="#">{{ gallerie.data.filter }}</a>
-        </nav>
+        <ul class="d-inline-flex flex-row">
+            <li class="mx-3" href="#">{{ gallerie.data.filter }}</li>
+        </ul>
     {% endfor %}
      
     <hr>
