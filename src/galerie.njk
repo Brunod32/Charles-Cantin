@@ -5,11 +5,19 @@ layout: layout.njk
 
 <main class="container-fluid">
 
-    {% for gallerie in collections.galleries %}
-        <ul class="d-inline-flex flex-row">
-            <li class="mx-3" href="#">{{ gallerie.data.title }}</li>
+    {# {% for gallerie in collections.galleries %} #}
+        <ul>
+            {# <li class="mx-3" href="#">{{ gallerie.data.title }}</li> #}
+            <button type="button">Tout</button>
+            <button type="button">Bébé</button>
+            <button type="button">Mariage</button>
+            <button type="button">Famille</button>
+            <button type="button">Grossesse</button>
+            <button type="button">Baptême</button>
+            <button type="button">Couple</button>
+            <button type="button">Portrait</button>
         </ul>
-    {% endfor %}
+    {# {% endfor %} #}
      
     <hr>
 
