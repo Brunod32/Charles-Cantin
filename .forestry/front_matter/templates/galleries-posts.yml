@@ -17,6 +17,7 @@ fields:
     maxSize: 64
   label: picture
 pages:
+- src/galleries/bapteme-1.md
 - src/galleries/bapteme.md
 - src/galleries/bebe-1.md
 - src/galleries/bebe.md
