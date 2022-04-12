@@ -11,6 +11,9 @@ layout: layout.njk
                 <h5 class="card-title text-center">{{tarif.data.title}}</h5>
                 <h6 class="card-subtitle mb-2 text-muted text-center">{{tarif.data.price}}</h6>
                 <p class="card-text text-center">{{tarif.data.description}}</p>
+                <div class="col text-center">
+                    <a href="{{ '/contact/index.html' }}"><button type="button" class="btn btn-primary mt-2">Contactez-moi</button></a>
+                </div>
             </div>
         </div>
     {% endfor %}
