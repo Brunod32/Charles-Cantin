@@ -5,23 +5,20 @@ layout: layout.njk
 
 <main class="container-fluid">
 
-    {% for gallery in collections.galleries %}
+    {% for galerie in collections.galleries %}
         <nav class="d-inline-flex flex-row">
-            <a class="mx-3" href="#">{{gallery.data.title}}</a>
-            {# Mettre dans href le lien vers les photos en fonction du filtre #}
+            <a class="mx-3" href="#">{{galerie.data.title}}</a>
         </nav>
     {% endfor %}
      
     <hr>
 
     {# Bouclez et créez un balisage pour toutes les images dans /uplaods #}
-    <section>
+    {# <section>
         {% for upload in collections.uploads %}
             <img src="{{upload}}" class="img-gallery" alt=""/>
         {% endfor %}
-    </section>
+    </section> #}
     
-    {# <img src="{{ '/uploads/baby1.jpg' }}" class="img-gallery" alt="Photo bébé"/> #}
-
 </main>
 
