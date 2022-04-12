@@ -89,3 +89,21 @@ h2 {
     margin-top: 3rem;
     margin-left: 3rem;
 }
+
+ul {
+    margin-top: 2.5rem;
+    display:flex;
+    flex-direction:row;
+}
+
+button {
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    margin: auto;
+}
+
+button:hover {
+    text-decoration: underline;
+    color: blue;
+}
