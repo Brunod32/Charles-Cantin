@@ -1,7 +1,7 @@
 ---
 filter:
 - baby
-title: Bébé
+title: Bébé-2
 picture: "/uploads/baby2.jpg"
 
 ---
