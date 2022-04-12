@@ -5,18 +5,18 @@ layout: layout.njk
 
 <main class="container-fluid">
 
-    {# {% for galerie in collections.galleries %}
+    {% for gallerie in collections.galleries %}
         <nav class="d-inline-flex flex-row">
-            <a class="mx-3" href="#">{{galerie.data.title}}</a>
+            <a class="mx-3" href="#">{{ gallerie.data.filter }}</a>
         </nav>
-    {% endfor %} #}
+    {% endfor %}
      
     <hr>
 
     {# Bouclez et créez un balisage pour toutes les images dans /uplaods #}
     <section>
-        {% for picture in collections.pictures %}
-            <img src="{{picture.data.picture}}" class="img-gallery" alt=""/>
+        {% for gallerie in collections.galleries %}
+            <img src={{ gallerie.data.picture }} class="img-gallery" alt=""/>
         {% endfor %}
     </section>
     
