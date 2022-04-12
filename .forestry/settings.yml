@@ -11,6 +11,11 @@ sections:
   label: tarifs
   create: all
   match: "**/*"
+- type: directory
+  path: src/galleries
+  label: galleries
+  create: all
+  match: "**/*"
 upload_dir: src/uploads
 public_path: "/uploads"
 front_matter_path: ''
