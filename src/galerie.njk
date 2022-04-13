@@ -8,14 +8,14 @@ layout: layout.njk
     {# {% for gallerie in collections.galleries %} #}
         <ul>
             {# <li class="mx-3" href="#">{{ gallerie.data.title }}</li> #}
-            <button type="button">Tout</button>
-            <button type="button">Bébé</button>
-            <button type="button">Mariage</button>
-            <button type="button">Famille</button>
-            <button type="button">Grossesse</button>
-            <button type="button">Baptême</button>
-            <button type="button">Couple</button>
-            <button type="button">Portrait</button>
+            <button class="button filter active" data-filter="all">Tout</button>
+            <button class="button filter" data-filter="baby">Bébé</button>
+            <button class="button filter" data-filter="wedding">Mariage</button>
+            <button class="button filter" data-filter="family">Famille</button>
+            <button class="button filter" data-filter="pregnancy">Grossesse</button>
+            <button class="button filter" data-filter="baptism">Baptême</button>
+            <button class="button filter" data-filter="couple">Couple</button>
+            <button class="button filter" data-filter="portrait">Portrait</button>
         </ul>
     {# {% endfor %} #}
      
@@ -24,7 +24,7 @@ layout: layout.njk
     {# Bouclez et créez un balisage pour toutes les images dans /uplaods #}
     <section>
         {% for gallerie in collections.galleries %}
-            <img src={{ gallerie.data.picture }} class="img-gallery" alt=""/>
+            <img src={{ gallerie.data.picture }} class="img-gallery" data-item="{{ gallerie.data.filter }}" alt=""/>
         {% endfor %}
     </section>
     
