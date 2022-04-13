@@ -23,9 +23,13 @@ layout: layout.njk
 
     {# Bouclez et créez un balisage pour toutes les images dans /uplaods #}
     <section>
-        {% for gallerie in collections.galleries %}
-            <img src={{ gallerie.data.picture }} class="img-gallery" data-item="{{ gallerie.data.filter }}" alt=""/>
-        {% endfor %}
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 m-auto justify-content-center">
+                {% for gallerie in collections.galleries %}
+                        <img src={{ gallerie.data.picture }} class="img-gallery" data-item="{{ gallerie.data.filter }}" alt=""/>
+                {% endfor %}
+            </div>
+        </div>
     </section>
     
 </main>
