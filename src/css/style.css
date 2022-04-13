@@ -18,12 +18,13 @@ footer {
     width: 40px;
 }
 
-.social-facebook  {
+.social-facebook {
     height: 30px;
     width: 30px;
+    margin-top: 0;
 }
 
-.social-insta  {
+.social-insta {
     height: 35px;
     width: 35px;
 }
