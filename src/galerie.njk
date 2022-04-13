@@ -5,8 +5,7 @@ layout: layout.njk
 <hr>
 <main class="container-fluid">
 
-{# {% for gallerie in collections.galleries %} #}
-    <ul>
+    <ul class="column">
         {# <li class="mx-3" href="#">{{ gallerie.data.title }}</li> #}
         <button class="button filter" data-filter="all">Tout</button>
         <button class="button filter" data-filter="baby">Bébé</button>
@@ -17,7 +16,6 @@ layout: layout.njk
         <button class="button filter" data-filter="couple">Couple</button>
         <button class="button filter" data-filter="portrait">Portrait</button>
     </ul>
-{# {% endfor %} #}
      
     <hr>
 

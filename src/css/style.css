@@ -1,15 +1,22 @@
-/* Footer */
+/* General */
 
-footer {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 40px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+.title-page {
+    text-align: center;
+    margin-top: 2rem;
 }
+
+h2 {
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+hr {
+    max-width: 50%;
+    margin:auto;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
 
 /* Navbar */
 
@@ -98,7 +105,7 @@ label {
 
 ul {
     display:flex;
-    flex-direction:row;
+    flex-wrap: wrap;
     margin-top: 2rem;
 }
 
@@ -114,21 +121,15 @@ button:hover {
     color: blue;
 }
 
-/* General */
+/* Footer */
 
-.title-page {
-    text-align: center;
-    margin-top: 2rem;
-}
-
-h2 {
-    margin-top: 3rem;
-    margin-left: 3rem;
-}
-
-hr {
-    max-width: 50%;
-    margin:auto;
-    margin-bottom: 1rem;
-    margin-top: 2rem;
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
