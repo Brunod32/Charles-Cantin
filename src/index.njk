@@ -1,10 +1,11 @@
 ---
 layout: layout.njk
 ---
+{% for home in collections.homes %}
+    <h1 class="title-home text-center">{{home.data.title}}</h1>
 
-<h1 class="title-home text-center">{{site.titleHome}}</h1>
-
-<p class="title-home text-center">{{site.titleHomeProf}}</p>
-<a href="{{ '/galerie/index.html' }}">
-    <img id="img-home" src="{{ '/uploads/img_desktop.jpg' }}" alt="Accueil"/>
-</a>
+    <p class="title-home text-center">{{home.data.subtitle}}</p>
+    <a href="{{ '/galerie/index.html' }}">
+        <img id="img-home" src={{ home.data.picture }} alt="Accueil"/>
+    </a>
+{% endfor %}
