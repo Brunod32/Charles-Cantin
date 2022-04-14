@@ -16,6 +16,6 @@ Pour générer les fichiers HTML, `eleventy`, ou `elventy --serve` pour génére
 
 ## Déploiement en ligne
 
-Le projet a été déployé sur netlify.com et le CMS forestry.io a été utilisé pour l'alimentation du site.
+Le projet a été déployé sur <https://www.netlify.com/> et le CMS <https://forestry.io/> a été utilisé pour l'alimentation du site.
 
 Après avoir créer un compte sur netlify et sur forestry, il faut ajouter un site en utilisant le lien github de projet. Ainsi chaque modification du code effectuée en local est prise en compte sur le site hebergé sur netlify. L'ajout de contenu via forestry est recupéré par le dépôt puis utilisé par netlify.
