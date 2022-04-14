@@ -1,25 +1,21 @@
-# Charles Cantin portfolio project
+# Portfolio Charles Cantin
 
 <https://charlescantinphotographe.netlify.app/index.html>
 
-Training evaluation during training: Developing the front-end part of a web application.
+Evaluation d'entrainement en cours de formation : Développement de la partie front-end d'une application web.
 
-Charles Cantin, someone you know, is passionate about photography.
-Even if he practices as an amateur, his talent is recognized and many call on him to immortalize their events.
-To move up a gear and perhaps make a living from this activity, he wants to be able to build a portfolio in the form of a website.
-And since he learned that you were currently in training to become a developer, he calls on you.
+Charles Cantin, une personne de votre entourage, est passionné par la photographie. Même s’il pratique en amateur, son talent est reconnu et beaucoup font appel à lui pour immortaliser leurs événements. Pour passer à la vitesse supérieure et peut-être vivre de cette activité, il désire pouvoir se construire un portfolio sous la forme d’un site web. Et comme il a appris que vous étiez actuellement en formation pour devenir développeur, il fait appel à vous.
 
-## Local deployment
+## Déploiement local
 
-Clone the repository, `git clone https://github.com/Brunod32/Charles-Cantin.git`.
+Cloner le dépôt, `git clone https://github.com/Brunod32/Charles-Cantin.git`.
 
-Install the dependencies, `composer install`.
+Installer les dependances, `composer install`.
 
-To generate the html files, `eleventy`, or `elventy --serve` to generate files automatically each time an njk file is saved and get a local url.
+Pour générer les fichiers HTML, `eleventy`, ou `elventy --serve` pour générer automatiquement les fichiers html à chaque enregistrement des fichiers njk.
 
-## Online deployment
+## Déploiement en ligne
 
-Create an account at netlify.com. Add a new site and deploy by associating the github repository.
+Le projet a été déployé sur netlify.com et le CMS forestry.io a été utilisé pour l'alimentation du site.
 
-Create an account at forestry.io. Add a new site by associating the project repository with the github link.
-
+Après avoir créer un compte sur netlify et sur forestry, il faut ajouter un site en utilisant le lien github de projet. Ainsi chaque modification du code effectuée en local est prise en compte sur le site hebergé sur netlify. L'ajout de contenu via forestry est recupéré par le dépôt puis utilisé par netlify.
