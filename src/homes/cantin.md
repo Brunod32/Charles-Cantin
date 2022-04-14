@@ -1,6 +1,6 @@
 ---
 title: Charles Cantin
 subtitle: Photographe
-picture: "/uploads/logo_cantin.png"
+picture: "/uploads/img_desktop.jpg"
 
 ---
