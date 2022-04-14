@@ -11,7 +11,7 @@ And since he learned that you were currently in training to become a developer, 
 
 ## Local deployment
 
-Clone the repository, `git clone`.
+Clone the repository, `git clone https://github.com/Brunod32/Charles-Cantin.git`.
 
 Install the dependencies, `composer install`.
 
